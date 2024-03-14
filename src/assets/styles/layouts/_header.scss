@@ -1,0 +1,115 @@
+// _header.scss
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  background-color: #090928;
+}
+
+header {
+  height: 90px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.settings-icon {
+  width: 3em;
+  height: 3em;
+  background-image: url(../images/settings.png);
+  background-size: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: grey;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  background-color: #3273fa;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+  height: 2em;
+  width: 4em;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  background-color: #3273fa;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+  height: 2em;
+  width: 7em;
+}
+
+.login-content {
+  display: flex;
+  align-items: center;
+}
+
+.icon-profile {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/profile.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.project-title {
+  color: #ffffff;
+  font-size: 3em;
+  position: relative;
+  margin-right: 25em; // Ajuste de margen para estar más pegado al logo
+}

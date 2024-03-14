@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    height: calc(100vh - 90px);
+  }
+  
+  .contact-form {
+    padding-left: 20px;
+    width: 45%;
+    color: white;
+    background-color:#191937 ;
+  }
+  
+  .image-container {
+    width: 55%;
+    background-image: url(../images/img1.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  select {
+    background-color: #25254b;
+    border: 1px solid #25254b;
+    outline: none;
+    height: 2.5em;
+    width: 20em;
+    color: grey;
+    margin-bottom: 2.5em;
+  }
+  
+  input {
+    background-color: #25254b;
+    border: 0;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    background-color: #25254b;
+    border: 0;
+    height: 20em;
+    width: 50em;
+    resize: none;
+    color: #ffffff;
+  }
+  
+  .input-group {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+  
+  label {
+    font-family: "Anton";
+    display: block;
+  }
+  
+  .input-group label {
+    margin-bottom: 5px;
+    font-size: 1.75em;
+  }
+  
+  .input-group input {
+    width: 20em;
+    height: 2.5em;
+  }
+  
+  .input-group .telef-input {
+    width: 30em;
+  }
+  
+  .submit-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3273fa;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 21.4em;
+  }
+  
+  .reset-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3273fa;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 1em;
+    margin-top: 1em;
+  }

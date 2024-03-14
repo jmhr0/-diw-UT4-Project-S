@@ -1,0 +1,28 @@
+body {
+margin: 0;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("../fonts/Anton-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather-Regular.ttf") format("truetype");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  font-family: "Anton", sans-serif;
+}
+
+p,
+span {
+  font-family: "Merriweather", serif;
+}

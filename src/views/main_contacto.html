@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="contact-form" role="form" aria-labelledby="contact-title">
+        <h2 class="contact-title" id="contact-title">Contacto</h2>
+        <p class="welcome-message">¡Déjanos tu mensaje y nos contactaremos pronto!</p>
+        <!-- Formulario de contacto -->
+        <form action="#" method="post" role="form" aria-labelledby="contact-title welcome-message">
+            <div class="input-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Introduzca su nombre.." required aria-required="true" aria-describedby="name-error">
+                <span id="name-error" class="error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="input-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Introduzca su correo.." required aria-required="true" aria-describedby="email-error">
+                <span id="email-error" class="error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="input-group">
+                <label for="phone">Teléfono:</label>
+                <input class="telef-input" type="tel" id="phone" name="phone" placeholder="Introduzca su teléfono.." required aria-required="true" aria-describedby="phone-error">
+                <span id="phone-error" class="error" role="alert" aria-live="polite"></span> 
+            </div><br>
+            <div class="input-group">
+                <label for="topic">Tema:</label>
+                <select id="topic" name="topic" required aria-required="true" aria-invalid="false" aria-describedby="topic-error">
+                    <option value="" hidden selected>Seleccione un tema</option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Soporte">Soporte</option>
+                    <option value="Sugerencia">Sugerencia</option>
+                </select>
+                <span id="topic-error" class="error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="input-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required aria-required="true" aria-describedby="message-error"></textarea>
+                <span id="message-error" class="error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="input-group">
+                <button type="submit" class="submit-button" aria-label="Enviar formulario">Enviar</button>
+                <button type="reset" class="reset-button" aria-label="Restablecer formulario">Restablecer</button>
+            </div>
+            <div role="status" aria-live="polite" aria-atomic="true">
+                <!-- Mensajes de estado para el usuario -->
+            </div>
+        </form>
+    </div>
+    <div class="image-container">
+        <!-- Imagen -->
+    </div>
+</div>
