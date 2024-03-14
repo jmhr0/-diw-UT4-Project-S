@@ -38,7 +38,9 @@ Anton es una fuente sans-serif moderna y audaz que agrega un toque contemporáne
 
 OpenDyslexic es una fuente diseñada específicamente para mejorar la legibilidad para las personas con dislexia. Ofrece un diseño único que puede facilitar la lectura para aquellos con dificultades de procesamiento de texto, lo que la convierte en una opción sólida para sitios web inclusivos.
 
-## **Enlaces al Wireframing:**
+## **Wireframing**
+[Wireframing](test)
+## **Enlaces al proyecto en figma:**
 
 [Resumen y pagina de detalles](https://www.figma.com/file/Z2lhgLJsMvojWVAQnBcClE/Untitled?type=design&node-id=1%3A127&mode=design&t=TiwLMtSqAgyh6yOk-1)
 [Landing page, Pagina de productos y Pagina de contacto](https://www.figma.com/file/29IunopiW3JlIPl47vRxHY/Untitled?type=design&node-id=2%3A44&mode=design&t=luMKb9PmDMMhJO53-1)
