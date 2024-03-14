@@ -46,3 +46,6 @@ OpenDyslexic es una fuente diseñada específicamente para mejorar la legibilida
 
 
 [Landing page, Pagina de productos y Pagina de contacto](https://www.figma.com/file/29IunopiW3JlIPl47vRxHY/Untitled?type=design&node-id=2%3A44&mode=design&t=luMKb9PmDMMhJO53-1)
+
+# Overview
+![OverView](https://raw.githubusercontent.com/jleocan773/diw-UT4-Pokemondle/main/imagenesPresentacion/Gu%C3%ADa%20de%20Estilo%20Pok%C3%A9mondle.png)
